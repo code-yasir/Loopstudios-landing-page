@@ -13,28 +13,30 @@
 
 <body>
   <section class="hero">
-    <h1>loopstudios</h1>
-    <div class="toggle-container">
-      <img src="./images/icon-hamburger.svg" alt="#">
+    <img src="./images/logo.svg" alt="logo" class="logo" id="logo">
+    <div id="toggle" class="toggle-container">
+      <img id="burger-menu" src="./images/icon-hamburger.svg" alt="#">
     </div>
-    <nav class="navbar">
-      <ul>
-        <li class="nav-item"><a href="#about" class="links">ABOUT</a></li>
-        <li class="nav-item"><a href="#careers" class="links">CAREERS</a>
-        </li>
-        <li class="nav-item"><a href="#events" class="links">EVENTS</a>
-        </li>
-        <li class="nav-item"><a href="#products" class="links">PRODUCTS</a>
-        </li>
-        <li class="nav-item"><a href="#support" class="links">SUPPORT</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="overlay">
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item"><a href="#about" class="links">about</a></li>
+          <li class="nav-item"><a href="#careers" class="links">careers</a>
+          </li>
+          <li class="nav-item"><a href="#events" class="links">events</a>
+          </li>
+          <li class="nav-item"><a href="#products" class="links">products</a>
+          </li>
+          <li class="nav-item"><a href="#support" class="links">support</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container">
       <h1 class="hero-text">immersive experiences that deliver</h1>
     </div>
   </section>
-  <section class="feature">
+  <section class="center">
     <div class="feature-img">
       <img src="./images/mobile/image-interactive.jpg" alt="man wearing our vr product">
     </div>
@@ -45,34 +47,68 @@
         through digital experiences that bind to their brand.</p>
     </div>
   </section>
-  <section class="creations">
+  <section class="center">
     <h2 class="creation-heading">our creations</h2>
-    <div class="card">deep earth</div>
-    <div class="card">night arcade</div>
-    <div class="card">soccer team vr</div>
-    <div class="card">the grid</div>
-    <div class="card">from up above vr</div>
-    <div class="card">pocket borealis</div>
-    <div class="card">the curiosity</div>
-    <div class="card">make it fisheye</div>
+    <div class="card-container">
+      <div class="card">
+        <img src="./images/mobile/image-deep-earth.jpg" alt="earth picture">
+        <p class="img-text">deep <br>earth</p>
+      </div>
+      <div class="card">
+        <img src="./images/mobile/image-night-arcade.jpg" alt="night arcade">
+        <p class="img-text">night <br>arcade</p>
+      </div>
+      <div class="card">
+        <img src="./images/mobile/image-soccer-team.jpg" alt="soccer team vr">
+        <p class="img-text">soccer <br>team vr</p>
+      </div>
+      <div class="card">
+        <img src="./images/mobile/image-grid.jpg" alt="the grid">
+        <p class="img-text">the <br>grid</p>
+      </div>
+      <div class="card">
+        <img src="./images/mobile/image-from-above.jpg" alt="from above">
+        <p class="img-text">from up <br>above vr</p>
+      </div>
+      <div class="card">
+        <img src="./images/mobile/image-pocket-borealis.jpg" alt="pocket borealis">
+        <p class="img-text">pocket <br>borealis</p>
+      </div>
+      <div class="card">
+        <img src="./images/mobile/image-curiosity.jpg" alt="curiosity">
+        <p class="img-text">the <br>curiosity</p>
+      </div>
+      <div class="card">
+        <img src="./images/mobile/image-fisheye.jpg" alt="fisheye">
+        <p class="img-text">make it <br>fisheye</p>
+      </div>
+    </div>
     <button class="btn">see all</button>
   </section>
   <footer>
-    <a href="#" class="logo footer-logo">loopstudios</a>
-    <nav class="navbar footer-navbar">
-      <a href="#about" class="links footer-links">about</a>
-      <a href="#careers" class="links footer-links">careers</a>
-      <a href="#events" class="links footer-links">events</a>
-      <a href="#products" class="links footer-links">products</a>
-      <a href="#support" class="links footer-links">support</a>
+    <p href="#" class="logo footer-logo">loopstudios</p>
+    <nav class="footer-navbar">
+      <ul>
+        <li class="footer-item"><a href="#about" class="links">about</a></li>
+        <li class="footer-item"><a href="#careers" class="links">careers</a>
+        </li>
+        <li class="footer-item"><a href="#events" class="links">events</a>
+        </li>
+        <li class="footer-item"><a href="#products" class="links">products</a>
+        </li>
+        <li class="footer-item"><a href="#support" class="links">support</a>
+        </li>
+      </ul>
     </nav>
     <div class="social-links">
-      <a href="#facebook" class="social-icon"></a>
-      <a href="#twitter" class="social-icon"></a>
-      <a href="#pintrest" class="social-icon"></a>
-      <a href="#instagram" class="social-icon"></a>
+      <a href="#facebook" class="social-icon"><img src="./images/icon-facebook.svg" alt="facebook"></a>
+      <a href="#twitter" class="social-icon"><img src="./images/icon-twitter.svg" alt="twitter"></a>
+      <a href="#pinterest" class="social-icon"><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
+      <a href="#instagram" class="social-icon"><img src="./images/icon-instagram.svg" alt="instagram"></a>
     </div>
+    <small>&copy; 2021 Loopsstudios. All rights reserved.</small>
   </footer>
+  <script src="./app.js"></script>
 </body>
 
 </html>
