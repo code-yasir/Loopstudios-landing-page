@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General rules */
+
+:root {
+  --prim-clr: hsl(0, 0%, 100%);
+  --secon-clr: hsl(0, 0%, 0%);
+  --accent-clr: hsl(0, 0%, 55%);
+  --darkaccent-clr: hsl(0, 0%, 41%);
+
+  --ff-prim: 'Alata', sans-serif;
+  --ff-secon: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+  font-family: var(--ff-prim);
+}
+
+/* components style */
+
+.hero {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 1em;
+  background-image: url(./images/mobile/image-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero > h1 {
+  width: max-content;
+  margin-top: 0.7em;
+  margin-left: 0.4em;
+  font-family: var(--ff-prim);
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: var(--prim-clr);
+}
+
+
+.toggle-container {
+  position: absolute;
+  top: 2.8em;
+  right: 1em;
+}
+
+.toggle-container:hover {
+  cursor: pointer;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  text-align: center;
+  margin-bottom: 1.2em;
+  list-style: none;
+}
+
+.links {
+  display: none;
+  color: var(--prim-clr);
+  text-decoration: none;  
+}
+
+.links:hover {
+  cursor: pointer;
+  border-bottom: 2px solid var(--darkaccent-clr);
+}
+
+.container {
+  margin-top: 7.6em;
+  width: 98%;
+  min-height: 7em;
+  border: 3px solid var(--prim-clr);
+  padding: 1em;
+  font-family: var(--ff-secon);
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--prim-clr);
+}
+
+
+
+
+
+
+
+
